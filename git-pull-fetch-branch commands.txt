@@ -1,0 +1,198 @@
+1  clear
+    2  mkdir git-demo
+    3  cd git-demo
+    4  git init
+    5  cat>file1.txt
+    6  cat file1.txt
+    7  git status
+    8  git add .
+    9  git status
+   10  clear
+   11  git commit -m "first commit"
+   12  git status
+   13  clear
+   14  git clone https://github.com/DevopsLearner8792/new-repo.git
+   15  ls
+   16  cd new-repo
+   17  ls
+   18  git  status
+   19  git pull
+   20  clear
+   21  ls
+   22  git pull
+   23  ls
+   24  git status
+   25  git pull
+   26  ls
+   27  cd ..
+   28  clear
+   29  ls
+   30  git fetch https://github.com/DevopsLearner8792/third-repo.git
+   31  clear
+   32  git branch
+   33  clear
+   34  git branch
+   35  git branch test
+   36  git branch
+   37  cat>branch_demo.txt
+   38  cat branch_demo.txt
+   39  git status
+   40  git add .
+   41  git commit -m "1st commit in master branch"
+   42  clear
+   43  ls
+   44  git status
+   45  nano branch_demo.txt
+   46  git status
+   47  git add .
+   48  git status
+   49  git commit -m "2nd commit on master branch"
+   50  clear
+   51  ls
+   52  git status
+   53  git branch
+   54  git checkout test
+   55  ls
+   56  clear
+   57  git checkout test
+   58  ls
+   59  git checkout master
+   60  ls
+   61  clear
+   62  git branch
+   63  cat>file3.txt
+   64  git status
+   65  git add.
+   66  git add .
+   67  git commit -m "commit"
+   68  clear
+   69  ls
+   70  git branch
+   71  git checkout test
+   72  ls
+   73  git branch
+   74  git checkout master
+   75  ls
+   76  git branch test1
+   77  git checkout test1
+   78  ls
+   79  cat branch_demo.txt
+   80  clear
+   81  ls
+   82  nano branch_demo.txt
+   83  git status
+   84  git add .
+   85  git commit -m "3rd commit at test1 branch"
+   86  clear
+   87  ls
+   88  nano branch_demo.txt
+   89  git status
+   90  git add .
+   91  git commit -m "4th commit at test1 branch"
+   92  clear
+   93  cat branch_demo.txt
+   94  git checkout master
+   95  cat branch_demo.txt
+   96  nano branch_demo.txt
+   97  git status
+   98  git add .
+   99  git commit -m "3rd commit at master branch"
+  100  clear
+  101  git status
+  102  nano branch_demo.txt
+  103  git status
+  104  git add .
+  105  git commit -m "4th commit at master branch"
+  106  clear
+  107  cat branch_demo.txt
+  108  git checkout test1
+  109  cat branch_demo.txt
+  110  git merge master
+  111  clear
+  112  git log
+  113  clear
+  114  ls
+  115  git branch
+  116  git status
+  117  git add .
+  118  git commit -m "commit5"
+  119  git status
+  120  clear
+  121  git branch
+  122  git checkout master
+  123  cat branch_demo.txt
+  124  git checkout test1
+  125  cat branch_demo.txt
+  126  git merge master
+  127  clear
+  128  cd ..
+  129  clear
+  130  mkdir git-branch
+  131  cd git-branch
+  132  git init
+  133  clear
+  134  git branch
+  135  cat>file6.txt
+  136  git status
+  137  git add .
+  138  git commit -m "new commit"
+  139  clear
+  140  git branch
+  141  git branch test
+  142  git branch test1
+  143  git branch test2
+  144  git branch --list
+  145  git branch
+  146  git checkout test
+  147  git branch
+  148  git checkout test1
+  149  git branch
+  150  git checkout test2
+  151  git branch
+  152  git checkout master
+  153  clear
+  154  git branch
+  155  git branch -m test1 github
+  156  git branch
+  157  clear
+  158  git branch
+  159  ls
+  160  cat>file10.txt
+  161  cat file10.txt
+  162  git status
+  163  git add .
+  164  git commit -m "branch commit"
+  165  clear
+  166  git status
+  167  ls
+  168  git branch
+  169  git checkout github
+  170  ls
+  171  git merge master
+  172  ls
+  173  git branch
+  174  clear
+  175  git branch
+  176  git checkout test
+  177  ls
+  178  git merge github
+  179  ls
+  180  git branch
+  181  git checkout test2
+  182  ls
+  183  git merge test
+  184  clear
+  185  git branch
+  186  git checkout master
+  187  git branch
+  188  clear
+  189  git branch
+  190  ls
+  191  git clone https://github.com/DevopsLearner8792/third-repo.git
+  192  ls
+  193  clear
+  194  ls
+  195  git checkout test
+  196  ls
+  197  git fetch https://github.com/DevopsLearner8792/third-repo.git master
+  198  git fetch https://github.com/DevopsLearner8792/third-repo.git main

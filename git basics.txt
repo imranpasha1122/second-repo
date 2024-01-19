@@ -1,0 +1,52 @@
+Steps for Git:
+
+1.Install git in Linux/Ubuntu
+    for Linux--->sudo yum install git -y
+    for Ubuntu--->sudo apt install git -y
+
+2.Create a folder "git-demo" and change the path to that folder
+
+3.Initilaize "git" in that folder (git init)
+
+4.Create a file "demo.txt" and the content in it and save it
+
+5.Execute the command "git status" to check how many files are not added to the staging area(untracked files)
+
+6.Execute the command "gid add <f1,f2,..,fn> or git add ." to bring the files into staging area.
+
+7.Execute the command " git commit -m "message" " to commit the files into repo permanently.
+
+
+    1  clear
+    2  git --version
+    3  sudo apt install git -y
+    4  git --version
+    5  sudo apt upgrade git -y
+    6  cleqar
+    7  clear
+    8  git --version
+    9  mkdir git-demo
+   10  cd git-demo
+   11  git init
+   12  touch demo.txt
+   13  ls
+   14  cat>demo.txt
+   15  cat demo.txt
+   16  clear
+   17  ls
+   18  git status
+   19  git add demo.txt
+   20  git status
+   21  git commit demo.txt -m "first message"
+   22  clear
+   23  git status
+   24  touch demo2.txt demo3.txt demo4.txt
+   25  ls
+   26  cat>demo2.txt
+   27  cat demo2.txt
+   28  clear
+   29  ls
+   30  git status
+   31  git add .
+   32  git status
+   33  git commit -m "second commit"
